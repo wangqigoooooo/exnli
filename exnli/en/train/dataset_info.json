@@ -1,0 +1,58 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 3602094,
+  "description": "",
+  "download_checksums": {
+    "C:/Users/wq_15/PycharmProjects/generate_explanation_llm/data/xnli/en/train/train_cut_e_012.jsonl": {
+      "num_bytes": 4112950,
+      "checksum": null
+    }
+  },
+  "download_size": 4112950,
+  "features": {
+    "premise": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "hypothesis": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "explanation_1": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "explanation_2": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "explanation_3": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 7715044,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 3602094,
+      "num_examples": 6000,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

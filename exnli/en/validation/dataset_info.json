@@ -1,0 +1,58 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 2088456,
+  "description": "",
+  "download_checksums": {
+    "C:/Users/wq_15/PycharmProjects/generate_explanation_llm/data/xnli/en/validation/validation_e_012.jsonl": {
+      "num_bytes": 2306933,
+      "checksum": null
+    }
+  },
+  "download_size": 2306933,
+  "features": {
+    "premise": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "hypothesis": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "explanation_1": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "explanation_2": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "explanation_3": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 4395389,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 2088456,
+      "num_examples": 2490,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
