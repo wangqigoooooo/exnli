@@ -1,2 +1,2 @@
 # exnli
-给xnli数据集加入自然语言解释，拓展为新的数据集。
+new dataset
